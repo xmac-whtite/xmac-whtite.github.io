@@ -8,18 +8,20 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>我的第一篇博客文章 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1alert(&#39;Hello World!&#39;); 第一章内容  ##第二章内容  ##参考文献 www.codesheep.cn ~~~">
+  <meta name="description" content="1alert(&#39;Hello World!&#39;); 第一章内容在文章中插入 Pull quote。 content   在文章中嵌入 jsFiddle。    在文章中嵌入 Gist。    在文章中插入 iframe。     在文章中插入指定大小的图片。    ##第二章内容  ##参考文献 www.codesheep.cn ~~~">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的第一篇博客文章">
 <meta property="og:url" content="http://yoursite.com/2020/03/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1alert(&#39;Hello World!&#39;); 第一章内容  ##第二章内容  ##参考文献 www.codesheep.cn ~~~">
+<meta property="og:description" content="1alert(&#39;Hello World!&#39;); 第一章内容在文章中插入 Pull quote。 content   在文章中嵌入 jsFiddle。    在文章中嵌入 Gist。    在文章中插入 iframe。     在文章中插入指定大小的图片。    ##第二章内容  ##参考文献 www.codesheep.cn ~~~">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/path/to/image">
 <meta property="article:published_time" content="2020-03-24T08:34:54.000Z">
-<meta property="article:modified_time" content="2020-03-25T00:52:44.552Z">
+<meta property="article:modified_time" content="2020-03-25T00:58:28.448Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="games test">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/path/to/image">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -176,7 +178,26 @@
     <div class="article-entry" itemprop="articleBody">
       
         <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#39;Hello World!&#39;);</span><br></pre></td></tr></table></figure>
-<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容<br>在文章中插入 Pull quote。</p>
+<blockquote class="pullquote [class]"><p>content</p>
+</blockquote>
+
+<p>在文章中嵌入 jsFiddle。</p>
+<iframe scrolling="no" width="[width]" height="[height]" src="https://jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+
+<p>在文章中嵌入 Gist。</p>
+<script src="//gist.github.com/gist_id.js?file=[filename]"></script>
+
+
+<p>在文章中插入 iframe。</p>
+<iframe src="url" width="[width]" height="[height]" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+
+
+<p>在文章中插入指定大小的图片。</p>
+<img src="/path/to/image" class="[class names]" title="[width] [height] " alt="title text">
+
 <hr>
 <p>##第二章<br>内容</p>
 <hr>
